@@ -683,7 +683,7 @@ textarea {
 
 @media screen and (max-width: 600px) {
   .container {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     border-radius: 15px;
