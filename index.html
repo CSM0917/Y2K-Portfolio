@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chloe Mclamb | Portfolio (2005 vs. 2025)</title>
+    <!-- Load both CSS files (we'll toggle visibility) -->
+    <link rel="stylesheet" href="myspace.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a7fb49225c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- ===== NAVIGATION BAR ===== -->
+      <navbar>
+        <div class="nav-top">
+          <!-- ===== TOGGLE BUTTON ===== -->
+          <div class="nav-left">
+            <button type="button" id="theme-toggle">🌙 TOGGLE Y2K MODE</button>
+          </div>
+          <div class="nav-middle">
+            <form class="nav-search" action="/search" role="search">
+              <label for="q">Search Users:</label>
+              <div class="search-wrapper">
+                <input id="q" type="text" name="q" autocomplete="off" />
+              </div>
+              <button type="button">Search</button>
+            </form>
+          </div>
+          <div class="nav-right">
+            <a href="/help" rel="help">Help</a> | <a href="/login">LogIn</a> |
+            <a href="/signup">SignUp</a>
+          </div>
+        </div>
+        <ul class="nav-links">
+          <li class="active"><a href="/">Home</a></li>
+          <li class=""><a href="index.html">Browse</a></li>
+          <li class=""><a href="index.html">Search</a></li>
+          <li class=""><a href="index.html">Messages</a></li>
+          <li class=""><a href="index.html">Blog</a></li>
+          <li class="">
+            <a href="index.html">Bulletins</a>
+          </li>
+          <li class=""><a href="index.html">Forum</a></li>
+          <li class=""><a href="index.html">Groups</a></li>
+          <li class=""><a href="index.html">Layouts</a></li>
+          <li class=""><a href="index.html">Favs</a></li>
+          <li class=""><a href="index.html">Invite</a></li>
+          <li class="">
+            <a href="index.html" title="Mobile">App</a>
+          </li>
+          <li><a href="index.html">Shop</a></li>
+          <li class=""><a href="index.html">About</a></li>
+        </ul>
+      </navbar>
+      <main>
+        <!-- ===== MYSPACE (Y2K) MODE ===== -->
+        <div id="myspace-mode">
+          <!-- MySpace HTML -->
+          <div class="banner-decal">
+            <img
+              src="http://dl7.glitter-graphics.net/pub/439/439857hze1vgnqaz.gif"
+              width="371"
+              height="52"
+              alt="decor-glitter-graphics"
+            />
+          </div>
+          <marquee scrollamount="5"
+            >☆*: .｡. o(≧▽≦)o .｡.:*☆ WEB DEVELOPER | UX/UI | GRAPHIC DESIGNER |
+            Y2K ENTHUSIAST | ALT BADDIE ☆*: .｡. o(≧▽≦)o .｡.:*☆
+          </marquee>
+
+          <!-- Hidden audio player (autoplays on load) -->
+          <audio id="y2k-player" loop>
+            <source src="music\Supa Dupa Fly.mp3" type="audio/mpeg" />
+            Your browser doesn't support audio :(
+          </audio>
+          <!-- Music toggle button -->
+          <button id="music-toggle">♫ PLAY THAT STUFF ♫</button>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="profile-header">
+                <span class="username"><h1>💗CHL03MCL4MB💗</h1></span>
+                <span class="online-status" title="Online Now"></span>
+              </div>
+
+              <img
+                src="images\profile-picture.gif"
+                class="img-fluid"
+                id="profile-image"
+                alt=""
+              />
+              <div class="fake-view-link">
+                View: <span>Albums</span> | <span>Blogs</span> |
+                <span>Layouts</span>
+              </div>
+              <!-- Random Quote Bio -->
+              <br /><span class="random-quote" id="random-quote">
+                Loading deep thought...</span
+              ><br />
+              <div class="details">
+                WEB DEVELOPER 🌸 UX/UI 🌺 GRAPHIC DESIGNER 🌸 Y2K ENTHUSIAST 🌺
+                ALT BADDIE
+              </div>
+              <!-- Social Links -->
+              <div class="social-links">
+                <div class="add-me">
+                  <img
+                    class="add-me-icon"
+                    src="https://text.glitter-graphics.net/gold/a.gif"
+                    alt="glitter-graphics-a"
+                  />
+                  <img
+                    class="add-me-icon"
+                    src="https://text.glitter-graphics.net/gold/d.gif"
+                    alt="glitter-graphics-d"
+                  />
+                  <img
+                    class="add-me-icon"
+                    src="https://text.glitter-graphics.net/gold/d.gif"
+                    alt="glitter-graphics-d"
+                  />
+                  <img
+                    class="add-me-icon"
+                    src="https://text.glitter-graphics.net/gold/m.gif"
+                    alt="glitter-graphics-m"
+                  />
+                  <img
+                    class="add-me-icon"
+                    src="https://text.glitter-graphics.net/gold/e.gif"
+                    alt="glitter-graphics-e"
+                  />
+                </div>
+                <div class="social-link">
+                  <a
+                    href="https://www.linkedin.com/in/chloe-mclamb/"
+                    class="social-icon"
+                    title="Linkedin"
+                  >
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/pinkmenacemedia/?igsh=MTQwdmUwNzVmZmdkNA%3D%3D#"
+                    class="social-icon"
+                    title="Instagram"
+                  >
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a
+                    href="https://github.com/CSM0917/"
+                    class="social-icon"
+                    title="GitHub"
+                  >
+                    <i class="fa-brands fa-square-github"></i>
+                  </a>
+                  <a
+                    href="https://www.behance.net/36c04bd3/"
+                    class="social-icon"
+                    title="Behance"
+                  >
+                    <i class="fa-brands fa-square-behance"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Fake Contact Button List -->
+              <div class="table-container" id="contact-list">
+                <table class="responsive-table" id="fake-contact">
+                  <h3 id="contact-title">Contacting 💗CHL03MCL4MB💗</h3>
+                  <tr>
+                    <th id="last-online">Last Online: Whenever 🌈</th>
+                  </tr>
+                  <tr>
+                    <td class="fake-contact-btn" id="add-friend">
+                      ➕ Add Friend
+                    </td>
+                    <td class="fake-contact-btn" id="add-favorites">
+                      ⭐ Add to Favorites
+                    </td>
+                  </tr>
+                  <td class="fake-contact-btn" id="send-message">
+                    🗨️ Send Message
+                  </td>
+                  <td class="fake-contact-btn" id="block-user">
+                    🚫 Block User
+                  </td>
+                  <tr>
+                    <td class="fake-contact-btn" id="forward">
+                      💌 Forward to Friend
+                    </td>
+                    <td class="fake-contact-btn" id="report-user">
+                      🚩 Report User
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+              <!-- Friend List -->
+              <div class="table-container" id="friend-card-list">
+                <div class="friend-list">
+                  <h3 id="friend-list-name">💗CHL03MCL4MB💗 has 99 friends.</h3>
+                  <h3 id="friend-list-name">💗CHL03MCL4MB💗's top 8</h3>
+
+                  <div class="friend-cards">
+                    <div class="friend-card" id="friend-one">
+                      <h4 id="friend-name">xXx_PrInCeSs_PiNk_xXx</h4>
+                      <img src="images\me-y2k.png" alt="friend-one-image" />
+                    </div>
+                    <div class="friend-card" id="friend-two">
+                      <h4 id="friend-name">Sk8rBoi4Lyfe</h4>
+                      <img
+                        src="images\Gyaru Y2k Wallpaper.png"
+                        alt="friend-two-image"
+                      />
+                    </div>
+                    <div class="friend-card" id="friend-three">
+                      <h4 id="friend-name">Ki$$esNdThugsx0x0</h4>
+                      <img
+                        src="images\raven-myspace-gif.gif"
+                        alt="friend-three-image"
+                      />
+                    </div>
+                    <div class="friend-card" id="friend-four">
+                      <h4 id="friend-name">BratzDoll4Real</h4>
+                      <img
+                        src="images\chloe-shorts-myspace-gif.gif"
+                        alt="friend-four-image"
+                      />
+                    </div>
+                    <div class="friend-card" id="friend-five">
+                      <h4 id="friend-name">GothGurl88</h4>
+                      <img src="images\me-y2k-3.jpg" alt="friend-five-image" />
+                    </div>
+                    <div class="friend-card" id="friend-six">
+                      <h4 id="friend-name">3mo_K!tten_666</h4>
+                      <img
+                        src="images\tobias-myspace-gif.gif"
+                        alt="friend-six-image"
+                      />
+                    </div>
+                    <div class="friend-card" id="friend-seven">
+                      <h4 id="friend-name">~~GlItTeRbAbY~~</h4>
+                      <img src="images\me-y2k-4.png" alt="friend-seven-image" />
+                    </div>
+                    <div class="friend-card" id="friend-eight">
+                      <h4 id="friend-name">Bubblegum_Br@t</h4>
+                      <img src="images\me-y2k-2.png" alt="friend-eight-image" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!---My Interests-->
+              <div class="table-container" id="interest-box">
+                <table class="interest-list">
+                  <h3 id="interest-title">💗CHL03MCL4MB💗's Interests</h3>
+                  <tr class="interest-row">
+                    <td class="interest-catgeory">
+                      General<img
+                        src="https://dl.glitter-graphics.com/pub/494/494868ur0jbl8b8u.gif"
+                        width="100px"
+                        alt="decor-glitter-graphics-fairy"
+                      />
+                    </td>
+                    <td class="interest-description">
+                      <img
+                        src="https://dl.glitter-graphics.com/pub/36/36889vrx6zyicib.gif"
+                        width="150px"
+                        alt="decor-glitter-graphics-banner"
+                      /><br />Pink Lover 🩷 Designing 🩷 Shopping 🩷 Games 🩷
+                      Parties 🩷 Selfies 🩷 etc...
+                    </td>
+                  </tr>
+                  <tr class="interest-row">
+                    <td class="interest-catgeory">
+                      Music<img
+                        src="https://dl.glitter-graphics.com/pub/740/740498u2tety1ec4.gif"
+                        width="75px"
+                        alt="decor-glitter-graphics-dancer"
+                      />
+                    </td>
+                    <td class="interest-description">
+                      Hip-Hop 🩷 Pop 🩷 Rock 🩷 Classical 🩷 Y2K 🩷 90s 🩷 80s 🩷 70s 🩷
+                      60s 🩷 Megan Thee Stallion 🩷 Glorilla 🩷 Monaleo 🩷 FloMilli
+                      🩷 ...
+                    </td>
+                  </tr>
+                  <tr class="interest-row">
+                    <td class="interest-catgeory">Movies</td>
+                    <td class="interest-description">
+                      Bee Movie 🩷 Saw (1-10) 🩷 Insidious 🩷 US 🩷 Candy Man 🩷 Cat
+                      in the Hat 🩷...
+                    </td>
+                  </tr>
+                  <tr class="interest-row">
+                    <td class="interest-catgeory">Televison</td>
+                    <td class="interest-description">
+                      <img
+                        src="https://dl.glitter-graphics.com/pub/361/361813ewew5qw3kd.gif"
+                        alt="decor-glitter-graphics-zoro"
+                      />One Piece 🩷 Baddies 🩷 Shameless 🩷 Law & Order 🩷 The Wire
+                      🩷 Jersey Shore...<br /><img
+                        src="https://dl.glitter-graphics.com/pub/439/439280mujess6prt.gif"
+                        alt="decor-glitter-graphics"
+                      /><img
+                        src="https://dl.glitter-graphics.com/pub/365/365102tb0x2mxyj8.gif"
+                        alt="decor-glitter-graphics"
+                        width="100px"
+                      /><img
+                        src="https://dl.glitter-graphics.com/pub/2829/2829079voxqw9kphn.png"
+                        alt="decor-glitter-graphics"
+                      />
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+              <!-- GUESTBOOK -->
+              <div class="guestbook">
+                <h2>✍️ SIGN MY GUESTBOOK ✍️</h2>
+                <div>
+                  Visitors: <span id="counter">Loading...</span>
+                  <img
+                    src="https://dl.glitter-graphics.com/pub/248/248224vy4i45d284.gif"
+                    alt="decor-glitter-graphics-dice"
+                  />
+                </div>
+                <textarea
+                  placeholder="（づ￣3￣）づ╭❤️～ (✿◡‿◡)"
+                  rows="3"
+                ></textarea>
+                <button class="guestbook-btn">SUBMIT</button>
+              </div>
+            </div>
+
+            <div class="col-md-8-right">
+              <div class="row">
+                <!-- About Me Sidebar -->
+                <div class="about-me">
+                  <h2>✿ ABOUT ME ✿</h2>
+                  <marquee behavior="scroll" direction="left" scrollamount="5"
+                    >✨ 25 • She/They • If it's not pink, it's not my code • EST
+                    • Professional Glitter Distributor ✨</marquee
+                  >
+                  <p class="about-item">📍 Based in Maryland, USA</p>
+                  <p class="about-item">
+                    🎧 Currently Bumping: ♫<span id="current-song"
+                      >McBling MIDI hits</span
+                    >
+                  </p>
+                  <p class="about-item">
+                    <span>👑</span> Currently obsessed: Bratz dolls,
+                    cherry-flavored lip gloss, and debuggin' while listenin' to
+                    Monaleo
+                  </p>
+                  <p class="about-item">
+                    <b>ASL:</b> 25/Scene/My Bedroom<br />
+                    <b>Status:</b> Single (married to Pink)<br />
+                    <b>Zodiac:</b> Virgo<br />
+                    <b>Mood:</b>
+                    <img
+                      src="https://dl.glitter-graphics.com/pub/1218/1218943vd7t4ww8kb.gif"
+                      width="100px"
+                      alt="decor-glitter-graphics-mood-banner"
+                    />
+                  </p>
+                  <p class="about-item">🛠️ Skills:</p>
+                  <ul class="about-list">
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>UI/UX Design</li>
+                    <li>Graphic Design/Illustration</li>
+                    <li>Being a baddie</li>
+                  </ul>
+                </div>
+
+                <!---Virtual Tamagotchi Pet-->
+                <div class="tamagotchi-section">
+                  <h2>🐹 Tamagotchi Pet 🐹</h2>
+                  <div class="tamagotchi">
+                    <div class="stats">
+                      <span>HUNGER: <span id="hunger">●●●●●</span></span>
+                      <span>HAPPY: <span id="happy">●●●●●</span></span>
+                    </div>
+
+                    <div class="tamagotchi-screen">
+                      <div class="pet" id="pet">(ᵔᴥᵔ)</div>
+                    </div>
+
+                    <div class="buttons">
+                      <button class="tamagotchi-btn" id="feed">🍔</button>
+                      <button class="tamagotchi-btn" id="play">🎾</button>
+                      <button class="tamagotchi-btn" id="clean">🧼</button>
+                    </div>
+
+                    <div class="tamagotchi-accessories">
+                      <img
+                        src="https://dl.glitter-graphics.com/pub/705/705491l42r35k74t.gif"
+                        width="48px"
+                        alt="decor-glitter-graphics"
+                      />
+                      <img
+                        src="https://dl.glitter-graphics.com/pub/913/913228xih0rk0ub2.gif"
+                        width="80px"
+                        alt="decor-glitter-graphics"
+                      />
+                      <img
+                        src="https://dl.glitter-graphics.com/pub/705/705491l42r35k74t.gif"
+                        width="48px"
+                        alt="decor-glitter-graphics"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project content -->
+              <div class="dropdown">
+                <button class="dropbtn" id="view-more-btn">
+                  ▼ VIEW MY PROJECTS ▼
+                </button>
+                <div class="dropdown-content">
+                  <div class="project-grid">
+                    <!-- Always Visible Projects -->
+                    <div class="project-card">
+                      <a href="https://csm0917.github.io/y2k-glitter-button/">
+                        <img
+                          src="images\y2k-glitter-btn.gif"
+                          alt="Project 1"
+                          id="card-image"
+                        />
+                        <h3>Glitter Button</h3>
+                        <p>Y2K CSS animation with sparkle effects</p>
+                      </a>
+                    </div>
+
+                    <div class="project-card">
+                      <a
+                        href="https://www.behance.net/gallery/176163611/Logo-for-Chicken-Wing-Food-Truck"
+                      >
+                        <img
+                          src="images\Wing1Wing2.png"
+                          alt="Project 2"
+                          id="card-image"
+                        />
+                        <h3>Wing 1 & Wing 2</h3>
+                        <p>Wing Food Truck company Logo and Branding Designs</p>
+                      </a>
+                    </div>
+
+                    <div class="project-card hidden-projects">
+                      <a href="https://csm0917.github.io/Memory-Game/">
+                        <img
+                          src="images\memory-game.gif"
+                          alt="Project 3"
+                          id="card-image"
+                        />
+                        <h3>Memory Game</h3>
+                        <p>Sequenced Color Memory Game with restart feature</p>
+                      </a>
+                    </div>
+
+                    <div class="project-card hidden-projects">
+                      <a href="https://csm0917.github.io/Drum-Soundboard/">
+                        <img
+                          src="images\drumkit.png"
+                          alt="Project 4"
+                          id="card-image"
+                        />
+                        <h3>Drum Soundboard</h3>
+                        <p>Keyboard functional virtual drumset</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- SERVICES SECTION -->
+              <section class="services">
+                <h2>~*~ MY SERVICES ~*~</h2>
+                <div class="service-cards">
+                  <!-- Service 1 -->
+                  <div class="service">
+                    <h3>WEB DESIGN</h3>
+                    <p>
+                      Custom Y2K-themed websites that scream "under
+                      construction" in the best way
+                    </p>
+                    <div class="service-price">$500+</div>
+                  </div>
+
+                  <!-- Service 2 -->
+                  <div class="service">
+                    <h3>UX/UI</h3>
+                    <p>
+                      Apps that look like they were designed in a Hot Topic
+                      dressing room
+                    </p>
+                    <div class="service-price">$800+</div>
+                  </div>
+
+                  <!-- Service 3 -->
+                  <div class="service">
+                    <h3>GRAPHIC DESIGN</h3>
+                    <p>
+                      Creating bomb vectors & logos that look like they belong
+                      on a Juicy Couture tracksuit
+                    </p>
+                    <div class="service-price">$300+</div>
+                  </div>
+
+                  <!-- Service 4 -->
+                  <div class="service">
+                    <h3>WEB DEVELOPMENT</h3>
+                    <p>
+                      Website that look like they were designed in a Hot Topic
+                      dressing room
+                    </p>
+                    <div class="service-price">$1,000+</div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- HIRE ME BUTTON -->
+              <button class="hire-me-btn" id="hire-btn">
+                ✧･ﾟ:* HIRE ME *:･ﾟ✧
+              </button>
+
+              <!-- CONTACT FORM (Hidden by default) -->
+              <div class="contact-form" id="contact-form">
+                <h2>~*~ CONTACT ~*~</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="name">YOUR NAME:</label>
+                    <input
+                      type="text"
+                      id="name"
+                      placeholder="~*~ who r u? ~*~"
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">EMAIL:</label>
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="xXx@hotmail.com"
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="message">MESSAGE:</label>
+                    <textarea
+                      id="message"
+                      rows="5"
+                      placeholder="rawr XD"
+                    ></textarea>
+                  </div>
+
+                  <button type="submit" class="form-submit">
+                    SEND MESSAGE
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- ===== MODERN MODE ===== -->
+    <div id="modern-mode">
+      <!-- Your wireframed modern layout goes here -->
+      <header class="modern-header">
+        <h2>⚠️ Work In Progress ⚠️</h2>
+        <h2>The Modern page is currently being worked on</h2>
+      </header>
+    </div>
+
+    <!-- Script to toggle modes -->
+    <script src="toggle.js"></script>
+  </body>
+</html>
